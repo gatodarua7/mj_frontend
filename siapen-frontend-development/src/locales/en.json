@@ -1,0 +1,478 @@
+{
+    "menu":{
+      "gest_prisional":"PRISION MANAGEMENT",
+      "dashboard":"Dashboard",
+      "pessoas":"People",
+      "agendamentos":{
+        "titulo":"Customer Service",
+        "items":[
+          {
+            "label":"Visit"
+          },
+          {
+            "label":"Lawyer"
+          },
+          {
+            "label":"Legal"
+          },
+          {
+            "label":"Health"
+          },
+          {
+            "label":"Dental"
+          },
+          {
+            "label":"Psychological"
+          },
+          {
+            "label":"Educational"
+          },
+          {
+            "label":"Social"
+          },
+          {
+            "label":"Disciplinary"
+          }
+        ]
+      },
+      "correspondencias":{
+        "titulo":"Correspondence",
+        "items":[
+          {
+            "label":"Incoming"
+          },
+          {
+            "label":"Outcoming"
+          }
+        ]
+      },
+      "prontuarios":{
+        "titulo":"Prontuary",
+        "items":[
+          {
+            "label":"Legal"
+          },
+          {
+            "label":"Health"
+          },
+          {
+            "label":"Dental"
+          },
+          {
+            "label":"Psychological"
+          },
+          {
+            "label":"Educational"
+          },
+          {
+            "label":"Social"
+          },
+          {
+            "label":"Disciplinary"
+          }
+        ]
+      },
+      "movimentacoes":{
+        "titulo":"Displacements",
+        "items":[
+          {
+            "label":"Inclusion Request"
+          },
+          {
+            "label":"Cell Change"
+          },
+          {
+            "label":"Transfer"
+          }
+        ]
+      },
+      "manutencao":{
+        "titulo":"Maintenance",
+        "items":[
+          {
+            "label":"Defective cells",
+            "link":"/manutencao-cela"
+          }
+        ]
+      },
+      "relatorios":{
+        "titulo":"Report",
+        "items":[
+          {
+            "label":"Agenda of the day"
+          },
+          {
+            "label":"Check with photo"
+          },
+          {
+            "label":"Check in transit"
+          },
+          {
+            "label":"Check by block"
+          }
+        ]
+      },
+      "graficos":{
+        "titulo":"Graphics",
+        "items":[
+          {
+            "label":"Defective cells"
+          }
+        ]
+      },
+      "base_conhecimento":"KNOWLEDGE BASE",
+      "inteligencia":{
+        "titulo":"Intelligence",
+        "items":[
+          {
+            "label":"Criminal Factions"
+          },
+          {
+            "label":"Bond"
+          },
+          {
+            "label":"Predictive Analytics"
+          },
+          {
+            "label":"Dedalo"
+          }
+        ]
+      },
+      "base_corporativa":"CORPORATE BASE",
+      "prisional":{
+        "titulo":"Prison System",
+        "items":[
+          {
+            "label":"Penal System",
+            "link":"/sistema-penal"
+          },
+          {
+            "label":"Custody Units",
+            "link":"/unidades"
+          },
+          {
+            "label":"Sectors",
+            "link":"/setor"
+          },
+          {
+            "label":"Allocation / Blocks",
+            "link":"/bloco"
+          },
+          {
+            "label":"Prison Cells",
+            "link":"/cela"
+          },
+          {
+            "label":"Cell Defects",
+            "link":"/defeito"
+          }
+        ]
+      },
+      "ocor_carcerarias":"Prison Occurrences",
+      "ocor_judiciais":"Judicial Occurrences",
+      "servidores":"Servers",
+      "gestao_usuarios":"User Management"
+    },
+    "people":{
+      "list":{
+        "title":"Penitentiary Management",
+        "subtitle":"People Search",
+        "pesquisaPlaceHolder":"Enter the person's name",
+        "incl_pessoa":"Include person",
+        "internos":"Arrested",
+        "visitantes":"Visitors",
+        "advogados":"Lawyers",
+        "breadcrumbs":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"People",
+            "disabled":true,
+            "href":"/pessoas"
+          }
+        ]
+      },
+      "arrested":{
+        "title":"Penitentiary Management",
+        "subtitle":"Prisoner Register",
+        "breadcrumbs":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"People",
+            "disabled":false,
+            "href":"/pessoas"
+          },
+          {
+            "text":"Arrested",
+            "disabled":false,
+            "href":"/pessoas/internos/"
+          },
+          {
+            "text":"Registration",
+            "disabled":true,
+            "href":"/pessoas/internos/cadastro"
+          }
+        ],
+        "tabs":{
+          "individual":"Individual",
+          "documents":"Documents",
+          "contacts":"Contacts",
+          "characteristics":"Physical characteristics",
+          "signals":"Private Signs / tattoos",
+          "measures":"Measure",
+          "legal":"Legal Record",
+          "health":"Medical Records",
+          "moviment":"Displacement"
+        }
+      }
+    },
+    "penal_system":{
+      "top":{
+        "title":"Penitentiary Management",
+        "subtitle":"Penal System Registration",
+        "pesquisaPlaceHolder":"Inform the penal system",
+        "breadcrumbs":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Penal System",
+            "disabled":false,
+            "href":"/sistema-penal"
+          },
+          {
+            "text":"Registration",
+            "disabled":true,
+            "href":"/cadastro"
+          }
+        ]
+      },
+      "lista":{
+        "pesquisaPlaceHolder":"Inform the penal system"
+      }
+    },
+    "units":{
+      "top":{
+        "title":"Penitentiary Management",
+        "subtitle":"Custody Unit",
+        "pesquisaPlaceHolder":"Enter the unit",
+        "breadcrumbsPrincipal":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Units",
+            "disabled":true,
+            "href":"/unidades"
+          }
+        ],
+        "breadcrumbsCadastrar":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Units",
+            "disabled":false,
+            "href":"/unidades"
+          },
+          {
+            "text":"Register",
+            "disabled":true,
+            "href":"/cadastro"
+          }
+        ],
+        "breadcrumbsAlterar":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Units",
+            "disabled":false,
+            "href":"/unidades"
+          },
+          {
+            "text":"Change",
+            "disabled":true,
+            "href":"/alterar"
+          }
+        ]
+      },
+      "lista":{
+        "pesquisaPlaceHolder":"Enter the unit"
+      }
+    },
+    "setor":{
+      "top":{
+        "title":"Penitentiary Management",
+        "subtitle":"Sector",
+        "pesquisaPlaceHolder":"Inform the sector",
+        "breadcrumbsPrincipal":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Sector",
+            "disabled":true,
+            "href":"/setor"
+          }
+        ],
+        "breadcrumbsCadastrar":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Sector",
+            "disabled":false,
+            "href":"/setor"
+          },
+          {
+            "text":"Register",
+            "disabled":true,
+            "href":"/cadastro"
+          }
+        ]
+      }
+    },
+    "bloco":{
+      "top":{
+        "title":"Penitentiary Management",
+        "subtitle":"Block",
+        "pesquisaPlaceHolder":"Inform the block",
+        "breadcrumbsPrincipal":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Block",
+            "disabled":true,
+            "href":"/bloco"
+          }
+        ],
+        "breadcrumbsCadastrar":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Block",
+            "disabled":false,
+            "href":"/bloco"
+          },
+          {
+            "text":"Register",
+            "disabled":true,
+            "href":"/cadastro"
+          }
+        ]
+      },
+      "lista":{
+        "pesquisaPlaceHold er":"Inform the block"
+      }
+    },
+    "cela":{
+      "top":{
+        "title":"Penitentiary Management",
+        "subtitle":"Prison Cell",
+        "pesquisaPlaceHolder":"Inform the cell",
+        "breadcrumbsPrincipal":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Cell",
+            "disabled":true,
+            "href":"/cela"
+          }
+        ],
+        "breadcrumbsCadastrar":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Cell",
+            "disabled":false,
+            "href":"/cela"
+          },
+          {
+            "text":"Register",
+            "disabled":true,
+            "href":"/cadastro"
+          }
+        ]
+      }
+    },
+    "defeito":{
+      "top":{
+        "title":"Penitentiary Management",
+        "subtitle":"Defect",
+        "pesquisaPlaceHolder":"Report the defect",
+        "breadcrumbsPrincipal":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Defect",
+            "disabled":true,
+            "href":"/defeito"
+          }
+        ],
+        "breadcrumbsCadastrar":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Defect",
+            "disabled":false,
+            "href":"/defeito"
+          },
+          {
+            "text":"Register",
+            "disabled":true,
+            "href":"/cadastro"
+          }
+        ]
+      }
+    },
+    "$vuetify":{
+      "dataTable":{
+        "rowsPerPageText":"Registros por página:"
+      },
+      "dataIterator":{
+        "noDataText":"Sem dados",
+        "pageText":"{0}-{1} de {2}",
+        "noResultsText":"Nenhum registro encontrado",
+        "rowsPerPageAll":"Todos"
+      },
+      "noDataText":"Nenhum resultado encontrado."
+    }
+  }

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\tipo-documento\TipoDocumentoList.spec.js">
+    <testCase name="TipoDocumentoList Verifica se o componente de tabela foi carregado" duration="11"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\vinculo\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="11"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\titulo\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="12"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\orgao-expedidor\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="10"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\prisional\bloco\BlocoList.spec.js">
+    <testCase name="BlocoList Verifica se o componente de tabela foi carregado" duration="11"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\inteligencia\faccao-cargo\FaccaoCargoList.spec.js">
+    <testCase name="FaccaoCargoList Verifica se o componente de tabela foi carregado" duration="14"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\prisional\defeito\DefeitoList.spec.js">
+    <testCase name="DefeitoList Verifica se o componente de tabela foi carregado" duration="9"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\inteligencia\faccao-grupo\FaccaoGrupoList.spec.js">
+    <testCase name="FaccaoGrupoList Verifica se o componente de tabela foi carregado" duration="12"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\prisional\cela\CelaList.spec.js">
+    <testCase name="CelaList Verifica se o componente de tabela foi carregado" duration="7"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\telefone\TelefoneList.spec.js">
+    <testCase name="TelefoneList Verifica se o componente de tabela foi carregado" duration="7"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\profissao\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="6"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\setor\SetorList.spec.js">
+    <testCase name="SetorList Verifica se o componente de tabela foi carregado" duration="7"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\funcao\FuncaoList.spec.js">
+    <testCase name="FuncaoList Verifica se o componente de tabela foi carregado" duration="6"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\orientacao-sexual\OrientacaoSexualList.spec.js">
+    <testCase name="OrientacaoSexualList Verifica se o componente de tabela foi carregado" duration="7"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\estado-civil\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="6"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\grau-instrucao\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="8"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\raca\RacaList.spec.js">
+    <testCase name="RacaList Verifica se o componente de tabela foi carregado" duration="13"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\genero\GeneroList.spec.js">
+    <testCase name="GeneroList Verifica se o componente de tabela foi carregado" duration="11"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\norma-juridica\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="6"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\grau-periculosidade\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="6"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\regime-prisional\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="7"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\servidor\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="5"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\religiao\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="24"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\cargo\CargoList.spec.js">
+    <testCase name="CargoList Verifica se o componente de tabela foi carregado" duration="9"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\comportamento-interno\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="11"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\parametrizacao\necessidade-especial\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="9"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\prisional\sistema-penal\SistemaPenalList.spec.js">
+    <testCase name="SistemaPenalList Verifica se o componente de tabela foi carregado" duration="6"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\visitante\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="6"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\inteligencia\faccao\FaccaoList.spec.js">
+    <testCase name="FaccaoList Verifica se o componente de tabela foi carregado" duration="7"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\prisional\unidades\UnidadeList.spec.js">
+    <testCase name="UnidadesList Verifica se o componente de tabela foi carregado" duration="6"/>
+  </file>
+  <file path="C:\Users\Eliedson Holanda\meta\siapen-frontend\tests\unit\views\advogado\list.spec.js">
+    <testCase name="list Verifica se o componente de tabela foi carregado" duration="7"/>
+  </file>
+</testExecutions>

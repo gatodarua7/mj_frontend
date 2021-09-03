@@ -1,0 +1,475 @@
+{
+    "menu":{
+      "gest_prisional":"GESTIÓN DE LA PRISIÓN",
+      "dashboard":"Panel de Información",
+      "pessoas":"Personas",
+      "agendamentos":{
+        "titulo":"Programación",
+        "items":[
+          {
+            "label":"Visita"
+          },
+          {
+            "label":"Legal"
+          },
+          {
+            "label":"Salud"
+          },
+          {
+            "label":"Dental"
+          },
+          {
+            "label":"Psicologico"
+          },
+          {
+            "label":"Educacional"
+          },
+          {
+            "label":"Social"
+          },
+          {
+            "label":"Disciplinario"
+          }
+        ]
+      },
+      "correspondencias":{
+        "titulo":"Correspondencia",
+        "items":[
+          {
+            "label":"Entrada"
+          },
+          {
+            "label":"Salida"
+          }
+        ]
+      },
+      "prontuarios":{
+        "titulo":"Registros",
+        "items":[
+          {
+            "label":"Legal"
+          },
+          {
+            "label":"Salud"
+          },
+          {
+            "label":"Dental"
+          },
+          {
+            "label":"Psicologico"
+          },
+          {
+            "label":"Educacional"
+          },
+          {
+            "label":"Social"
+          },
+          {
+            "label":"Disciplinario"
+          }
+        ]
+      },
+      "movimentacoes":{
+        "titulo":"Desplazamientos",
+        "items":[
+          {
+            "label":"Solicitud de inclusión"
+          },
+          {
+            "label":"Cambio de celda"
+          },
+          {
+            "label":"Traslado"
+          }
+        ]
+      },
+      "manutencao":{
+        "titulo":"Mantenimiento",
+        "items":[
+          {
+            "label":"Celdas Defectuosas",
+            "link":"/manutencao-cela"
+          }
+        ]
+      },
+      "relatorios":{
+        "titulo":"Reporte",
+        "items":[
+          {
+            "label":"Agenda del día"
+          },
+          {
+            "label":"Consultar con foto"
+          },
+          {
+            "label":"Comprobar en tránsito"
+          },
+          {
+            "label":"Comprobar por pabellón "
+          }
+        ]
+      },
+      "graficos":{
+        "titulo":"Gráficos",
+        "items":[
+          {
+            "label":"Celdas Defectuosas"
+          }
+        ]
+      },
+      "base_conhecimento":"BASE DE CONOCIMIENTOS",
+      "inteligencia":{
+        "titulo":"Inteligencia",
+        "items":[
+          {
+            "label":"Facciones Criminales"
+          },
+          {
+            "label":"Enlaces"
+          },
+          {
+            "label":"Analítica Predictiva"
+          },
+          {
+            "label":"Dédalo"
+          }
+        ]
+      },
+      "base_corporativa":"BASE CORPORATIVA",
+      "prisional":{
+        "titulo":"Prisión",
+        "items":[
+          {
+            "label":"Sistema Penal",
+            "link":"/sistema-penal"
+          },
+          {
+            "label":"Unidades de Custodia",
+            "link":"/unidades"
+          },
+          {
+            "label":"Sectores",
+            "link":"/setor"
+          },
+          {
+            "label":"Asignación / Bloques",
+            "link":"/bloco"
+          },
+          {
+            "label":"Celdas",
+            "link":"/cela"
+          },
+          {
+            "label":"Defectos en las células",
+            "link":"/defeito"
+          }
+        ]
+      },
+      "ocor_carcerarias":"Ocurrencias en la prisión",
+      "ocor_judiciais":"Casos Judiciales",
+      "servidores":"Servidores",
+      "gestao_usuarios":"Gestión de Usuarios"
+    },
+    "people":{
+      "list":{
+        "title":"Gestión Penitenciaria",
+        "subtitle":"Búsqueda de personas",
+        "pesquisaPlaceHolder":"Ingrese el nombre de la persona",
+        "internos":"Arrestado",
+        "visitantes":"Visitantes",
+        "advogados":"Abogados",
+        "incl_pessoa":"Incluir persona",
+        "breadcrumbs":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Personas",
+            "disabled":true,
+            "href":"/pessoas"
+          }
+        ]
+      },
+      "arrested":{
+        "title":"Gestión Penitenciaria",
+        "subtitle":"Registro de prisioneros",
+        "breadcrumbs":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Personas",
+            "disabled":false,
+            "href":"/pessoas"
+          },
+          {
+            "text":"Arrestado",
+            "disabled":false,
+            "href":"/pessoas/internos/"
+          },
+          {
+            "text":"Registro",
+            "disabled":true,
+            "href":"/pessoas/internos/cadastro"
+          }
+        ],
+        "tabs":{
+          "individual":"Individuo",
+          "documents":"Cocumentación",
+          "contacts":"Contacto",
+          "characteristics":"Propiedades Físicas",
+          "signals":"Signos Particulares / tatuajes",
+          "measures":"Medidas",
+          "legal":"Registro Legal",
+          "health":"Registro Medico",
+          "moviment":"Desplazamientos"
+        }
+      }
+    },
+    "penal_system":{
+      "top":{
+        "title":"Gestión Penitenciaria",
+        "subtitle":"Registro del Sistema Penal",
+        "pesquisaPlaceHolder":"Informar al sistema penal",
+        "breadcrumbs":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Sistema Penal",
+            "disabled":false,
+            "href":"/sistema-penal"
+          },
+          {
+            "text":"Registro",
+            "disabled":true,
+            "href":"/cadastro"
+          }
+        ]
+      },
+      "lista":{
+        "pesquisaPlaceHolder":"Informar al sistema penal"
+      }
+    },
+    "units":{
+      "top":{
+        "title":"Gestión Penitenciaria",
+        "subtitle":"Unidad de Custodia",
+        "pesquisaPlaceHolder":"Entrar en la unidad",
+        "breadcrumbsPrincipal":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Unidades",
+            "disabled":true,
+            "href":"/unidades"
+          }
+        ],
+        "breadcrumbsCadastrar":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Unidades",
+            "disabled":false,
+            "href":"/unidades"
+          },
+          {
+            "text":"Registrar",
+            "disabled":true,
+            "href":"/cadastro"
+          }
+        ],
+        "breadcrumbsAlterar":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Unidades",
+            "disabled":false,
+            "href":"/unidades"
+          },
+          {
+            "text":"Cambiar",
+            "disabled":true,
+            "href":"/alterar"
+          }
+        ]
+      },
+      "lista":{
+        "pesquisaPlaceHolder":"Entrar en la unidad"
+      }
+    },
+    "setor":{
+      "top":{
+        "title":"Gestión Penitenciaria",
+        "subtitle":"Sector",
+        "pesquisaPlaceHolder":"Informar al sector",
+        "breadcrumbsPrincipal":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Sector",
+            "disabled":true,
+            "href":"/setor"
+          }
+        ],
+        "breadcrumbsCadastrar":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Sector",
+            "disabled":false,
+            "href":"/setor"
+          },
+          {
+            "text":"Registrar",
+            "disabled":true,
+            "href":"/cadastro"
+          }
+        ]
+      }
+    },
+    "bloco":{
+      "top":{
+        "title":"Gestión Penitenciaria",
+        "subtitle":"Bloque",
+        "pesquisaPlaceHolder":"Informar al bloque",
+        "breadcrumbsPrincipal":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Bloque",
+            "disabled":true,
+            "href":"/bloco"
+          }
+        ],
+        "breadcrumbsCadastrar":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Bloque",
+            "disabled":false,
+            "href":"/bloco"
+          },
+          {
+            "text":"Registrar",
+            "disabled":true,
+            "href":"/cadastro"
+          }
+        ]
+      },
+      "lista":{
+        "pesquisaPlaceHolder":"Informar al bloque"
+      }
+    },
+    "defeito":{
+      "top":{
+        "title":"Gestión Penitenciaria",
+        "subtitle":"Defeito",
+        "pesquisaPlaceHolder":"Pesquisar...",
+        "breadcrumbsPrincipal":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Defeito",
+            "disabled":true,
+            "href":"/defeito"
+          }
+        ],
+        "breadcrumbsCadastrar":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Defeito",
+            "disabled":false,
+            "href":"/defeito"
+          },
+          {
+            "text":"Registrar",
+            "disabled":true,
+            "href":"/cadastro"
+          }
+        ]
+      }
+    },
+    "cela":{
+      "top":{
+        "title":"Gestión Penitenciaria",
+        "subtitle":"Celda",
+        "pesquisaPlaceHolder":"Informar a la celda",
+        "breadcrumbsPrincipal":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Celda",
+            "disabled":true,
+            "href":"/cela"
+          }
+        ],
+        "breadcrumbsCadastrar":[
+          {
+            "text":"Dashboard",
+            "disabled":false,
+            "href":"/"
+          },
+          {
+            "text":"Celda",
+            "disabled":false,
+            "href":"/cela"
+          },
+          {
+            "text":"Registrar",
+            "disabled":true,
+            "href":"/cadastro"
+          }
+        ]
+      }
+    },
+    "$vuetify":{
+      "dataTable":{
+        "rowsPerPageText":"Registros por página:"
+      },
+      "dataIterator":{
+        "noDataText":"Sem dados",
+        "pageText":"{0}-{1} de {2}",
+        "noResultsText":"Nenhum registro encontrado",
+        "rowsPerPageAll":"Todos"
+      },
+      "noDataText":"Nenhum resultado encontrado."
+    }
+  }
